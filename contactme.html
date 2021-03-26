@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+<div class= "header">
+<header class= "headertext headerbackground">Contact Me</header>
+<div class= "navbar">
+<a href= "index.html" class= "linksbackground">Home</a>
+<a href= "portfolio.html" class= "linksbackground">Portfolio</a>
+<a href= "aboutme.html" class= "linksbackground">About</a>
+<a href= "help.html" class= "linksbackground">Help</a>
+</div>
+    
+<link href="contact-form.css" rel="stylesheet">
+
+<div class="fcf-body">
+
+<div class= "container">
+    <img src= "images/cupcake.png" alt="Cupcake" height= 300px>
+</div class= "contactform">
+    <div class="containertext">
+    <p>If you would like some custom Twitch emotes or badges making,</p>
+    <p>please fill out the form below in as much detail as you can.</p>
+    </div>
+    <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+        <div class="fcf-form-group contactform">
+            <p label for="Name" class="fcf-label titletext titlebackground contacttext container">Your name</label></p>
+            <div class="fcf-input-group">
+                <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group contactform">
+            <p label for="Email" class="fcf-label titletext titlebackground contacttext">Your email address</label></p>
+            <div class="fcf-input-group">
+                <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+            </div>
+        </div>
+
+        <div class="fcf-form-group contactform">
+            <p label for="Message" class="fcf-label titletext titlebackground contacttext">Your message</label></p>
+            <div class="fcf-input-group">
+                <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+        </div>
+
+        <div class="fcf-form-group contactform">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block titletext titlebackground contacttext">Send Message</button>
+        </div>
+
+    </form>
+    </div>
+
+</div>
+
+<p>You can also find me on:</p>
+<p></p>
+<div class="container">
+<a href= "https://github.com/DigiDemii" class= "contactlinks titlebackground">GitHub</a>
+<a href= "https://www.linkedin.com/in/digidemii" class= "contactlinks titlebackground">LinkedIn</a>
+<a href= "https://www.behance.net/DigiDemii" class= "contactlinks titlebackground">Behance</a>
+</div>
+<p></p>
+<p></p>
+</body>
+</html>

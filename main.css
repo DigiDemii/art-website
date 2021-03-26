@@ -1,0 +1,157 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+/* Code */
+
+* {
+    background-color:lightpink;
+    padding: 5px;
+}
+
+.navbar {
+    font-size: 20px;
+    font-family: 'Staatliches',
+    cursive;
+    text-align: center;
+    letter-spacing: 3px; 
+    background-color: black;
+    padding: 10px
+}
+
+a: navbar {
+    background-color: black;
+ }
+
+a:link {
+    color: white;
+   }
+a:visited {
+    color: white;
+   }
+a:hover {
+     color: lightpink;
+   }
+a:active {
+    color:white;
+   }
+
+ .linksbackground {
+     background-color: black
+ }
+
+.headertext {
+    color: white;
+}
+
+.headerbackground {
+    background-color:#2d2d2d;
+}
+
+.header {
+    font-size: 100px;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    /* background-image: linear-gradient(lightpink, black); */
+    padding: 0.10px;
+  }
+
+h1 {
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.titlebackground {
+    background-color:#2d2d2d;
+}
+
+.titletext {
+    color: white;
+}
+
+/* .titletext:hover {
+    color: lightpink;
+} */
+
+h2 {
+    font-size: 40px;
+    font-family: 'Staatliches',
+    cursive;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Abel', 
+    sans-serif;
+    text-align: center;
+    line-height: 30%;
+}
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  } */
+
+.singlecenter {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+
+.contactform {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}
+
+.contacttext {
+    font-size: 20px;
+    font-family: 'Staatliches',
+    cursive;
+    text-align: center;
+    letter-spacing: 3px; 
+    line-height: 200%;
+}
+
+.cupcake {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.container {
+    display: flex;
+    /* min-height: 100vh; */
+    flex-direction: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.containertext {
+    display: flex;
+    /* min-height: 100vh; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    line-height: 200%;
+}
+
+.contactlinks {
+    font-size: 20px;
+    font-family: 'Staatliches',
+    cursive;
+    text-align: center;
+    letter-spacing: 3px; 
+}
