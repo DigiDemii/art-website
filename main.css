@@ -86,11 +86,11 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Abel', 
     sans-serif;
     text-align: center;
-    line-height: 30%;
+    /* line-height: 30%; */
 }
 
 /* .center {
@@ -100,12 +100,12 @@ p {
     width: 80%;
   } */
 
-.singlecenter {
+/* .singlecenter {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-}
+} */
 
 .contactform {
     display: block;
@@ -116,7 +116,7 @@ p {
 }
 
 .contacttext {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Staatliches',
     cursive;
     text-align: center;
@@ -124,12 +124,12 @@ p {
     line-height: 200%;
 }
 
-.cupcake {
+/* .cupcake {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 20%;
-}
+} */
 
 .container {
     display: flex;
@@ -146,10 +146,11 @@ p {
     flex-wrap: wrap;
     justify-content: center;
     line-height: 200%;
+    font-size: 30px;
 }
 
 .contactlinks {
-    font-size: 20px;
+    font-size: 30px;
     font-family: 'Staatliches',
     cursive;
     text-align: center;
